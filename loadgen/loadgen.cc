@@ -995,7 +995,7 @@ void PerformanceSummary::Log(AsyncSummary& summary) {
 
   summary(
       "================================================\n"
-      "MLPerf Results Summary\n"
+      "MLPerf (dev-rnn) Results Summary\n"
       "================================================");
   summary("SUT name : ", sut_name);
   summary("Scenario : ", ToString(settings.scenario));
